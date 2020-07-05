@@ -1,0 +1,22 @@
+span{
+    color: rgb(250, 64, 182);
+}
+h1{
+    font-size: 50px;
+}
+button{
+    background-color: rgb(238, 77, 179);
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: mintcream;
+    border-color: mintcream;
+}
+p{
+    color: gray;
+}
+.first-half{
+    float: left;
+}
+.first-o-half{
+    float: right;
+}
