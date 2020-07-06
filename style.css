@@ -1,22 +1,130 @@
 span{
-    color: rgb(250, 64, 182);
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, rgb(248, 189, 78),tomato);
+    -webkit-text-fill-color: transparent;
+    color: #464646;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
-button{
-    background-color: rgb(238, 77, 179);
-    padding: 10px 15px;
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+#hellow{
+    font-size: 30px;
+}
+
+#first-button{
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 25px;
     border-radius: 5px;
     color: mintcream;
-    border-color: mintcream;
+    text-decoration: none;
 }
+#next-button{
+      background-image: linear-gradient(45deg, cyan, rgb(84, 84, 252));
+      padding: 10px 25px;
+      border-radius: 7px;
+      color: mintcream;
+      text-decoration: none;
+  }
 p{
-    color: gray;
+    color: dimgray;
 }
 .first-half{
     float: left;
+    width: 40%;
+    padding-left: 2%;
+    margin-left: 5%;
+    padding-top: 2%;
 }
-.first-o-half{
-    float: right;
+.first-half img{
+    width: 100%;
+
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.third-part{
+    float:left;
+    width: 25%;
+    padding-left: 2%;
+    margin-left: 5%;
+}
+.third-part img{
+    width: 100%;
+}
+
+.first{
+    background-image: url(image/header-bg.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.second{
+    background-image: url(image/biography-bg.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.third{
+    background-image: url(image/latest-work-bg.png);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.last{
+    background-image: url(image/footer-bg.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.last{
+    text-align: center;
+}
+
+.h{
+    font-size: 40px;
+}
+#name{
+    font-size: 25px;
+}
+#mail{
+    background-image: linear-gradient(45deg, pink, magenta);
+    padding: 25px 90px;
+    padding-bottom: 70px;
+    border-radius: 15px;
+    color: mintcream;
+    text-decoration: none;
+    
+}
+#last-div{
+    margin-top: 50px;
+}
+.last-pera{
+    font-size: 24px;
+}
+#third-top{
+    text-align: center;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, rgb(231, 21, 91), #fff0f0);
+    -webkit-text-fill-color: transparent;
+    color: lightcoral;
+
+}
+footer{
+    text-align: center;
+    color: dimgray;
+    padding-bottom: 6px;
+}
+h2{
+    color: floralwhite;
+    padding-bottom: 50px;
 }
